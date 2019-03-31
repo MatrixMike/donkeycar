@@ -60,7 +60,7 @@ A threaded part needs to define the function that runs in the separate thread
 and the function to call that will return the most recent values quickly.
 
 Here's an example how to make the RandPercent part threaded if the run
-function too a second to complete.
+function took a second to complete.
 
 ```python
 import random
